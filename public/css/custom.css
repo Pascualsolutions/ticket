@@ -1,0 +1,9 @@
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f00;
+    background-color: aliceblue;
+    border: 1px solid #f00;
+    text-align: center;
+    margin-top: 10px;
+}
