@@ -21,11 +21,11 @@
                 </div>
             @endforeach
 
-            @if ($products instanceof \Illuminate\Pagination\LengthAwarePaginator)
-                <div class="col-12">
-                    {{ $products->links() }} <!-- Add this line for pagination -->
-                </div>
-            @endif
+
+                {{-- <div class="col-12">
+                    {{ $products->links() }}
+                </div> --}}
+
 
         @else
             <div class="col-12">
